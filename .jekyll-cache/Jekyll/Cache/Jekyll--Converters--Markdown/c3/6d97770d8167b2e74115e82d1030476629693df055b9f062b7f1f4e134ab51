@@ -1,0 +1,6 @@
+I"b<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>brew tap AdoptOpenJDK/openjdk
+brew install --cask adoptopenjdk13
+</pre></td></tr></tbody></table></code></pre></div></div>
+:ET

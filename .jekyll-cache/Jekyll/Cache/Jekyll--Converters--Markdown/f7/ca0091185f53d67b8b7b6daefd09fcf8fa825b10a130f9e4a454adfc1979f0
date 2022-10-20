@@ -1,0 +1,3 @@
+I"�<h1 id="chirpy-theme-github-action-trigger">Chirpy theme GitHub Action trigger</h1>
+<p>github action을 트리거하기 위해서는 .github/workflows/pages-deploy.yml 에 적혀있는 트리거 조건이 맞아야 합니다.</p>
+:ET

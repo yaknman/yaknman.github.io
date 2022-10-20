@@ -1,0 +1,44 @@
+I"�<h1 id="chirpy-theme-github-action-trigger">Chirpy theme GitHub Action trigger</h1>
+<p>github action을 트리거하기 위해서는 .github/workflows/pages-deploy.yml 에 적혀있는 트리거 조건이 맞아야 합니다.</p>
+
+<p>처음 clone을 받으면 트리거 조건이 다음과 같이 적혀있습니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td> --><td class="rouge-code"><pre>on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>main branch에 push했을 때 트리거가 되는것을 확인할 수 있습니다.</p>
+
+<p>하지만 얼마전부터 github는 기본 branch를 master 대신 main으로 만들어주고 있습니다.</p>
+
+<p>따라서 다음과 branch를 다음과 같이 변경해 줍니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td> --><td class="rouge-code"><pre>on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+:ET

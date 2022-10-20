@@ -1,0 +1,4 @@
+I"d<h1 id="개요">개요</h1>
+<p>코틀린은 표준 라이브러리에 최소한의 저수준 API를 제공하여 다른 라이브러리가 코루틴을 사용할 수 있도록 합니다. 비슷한 기능을 제공하는 다른 언어들과는 다르게 코틀린은 <code class="language-plaintext highlighter-rouge">async</code>와 <code class="language-plaintext highlighter-rouge">await</code>가 기본 키워드가 아니며 표준 라이브러리에도 포함되지 않습니다.
+코틀린의 컨셉인 <code class="language-plaintext highlighter-rouge">suspending function(일시 중단 함수)</code>은 비동기 연산에 대해 <code class="language-plaintext highlighter-rouge">future</code>와  <code class="language-plaintext highlighter-rouge">promise</code>보다 좀 더 안전하고 오류를 발생시키지 않는 추상화를 제공합니다.</p>
+:ET

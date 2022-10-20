@@ -1,0 +1,4 @@
+I"�<h2 id="spring-rest-docs">Spring REST Docs</h2>
+<p>Spring REST Docs의 주요 목적은 <a href="https://asciidoctor.org">Asciidoctor</a>를 사용하여 작성한 문서를 <a href="https://docs.spring.io/spring-framework/docs/4.1.x/spring-framework-reference/htmlsingle/#spring-mvc-test-framework">Spring MVC Test</a>로 자동 생성된 코드와 결합하여 RESTful 서비스를 정확하고 가독성이 높도록 쉽게 문서화 하는 것입니다.</p>
+
+:ET
