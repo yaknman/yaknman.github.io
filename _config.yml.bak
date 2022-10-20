@@ -7,34 +7,34 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: yaknman Blog                    # the main title
+title: Yakeun Park                    # the main title
 
-tagline: Hello, world!                 # it will display as the sub-title
+tagline: developer blog                 # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  yaknman Blog
+  yaknman blog
   Today I Learned.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://glshlee.github.io'
 
-author: glshlee                         # change to your full name
+author: yakeunpark                         # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: glshlee                     # change to your github username
+  username: yaknman                     # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username:             # change to your twitter username
 
 social:
-  name: glshlee                         # it will shows as the copyright owner in Footer
-  email: glshlee@gmail.com             # change to your email address
+  name: yaknman                         # it will shows as the copyright owner in Footer
+  email: yakn2@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/glshlee        # change to your github homepage
-    - https://planbsw.tistory.com       # change to your twitter homepage
+    - https://github.com/yaknman        # change to your github homepage
+    #- https://planbsw.tistory.com       # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
